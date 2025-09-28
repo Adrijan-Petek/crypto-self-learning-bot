@@ -1,0 +1,6 @@
+{
+  "final_equity": 10000,
+  "initial_balance": 10000,
+  "equity_curve_len": 0,
+  "notes": "Run the backtest to produce a real report."
+}

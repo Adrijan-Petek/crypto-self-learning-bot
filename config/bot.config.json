@@ -1,0 +1,9 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1h",
+  "initial_balance": 10000,
+  "fee_rate": 0.001,
+  "train_window": 500,
+  "predict_horizon": 1,
+  "model_type": "random_forest"
+}

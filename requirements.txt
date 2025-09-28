@@ -1,0 +1,8 @@
+ccxt
+pandas
+numpy
+scikit-learn
+ta  # technical analysis helpers
+matplotlib
+python-dotenv
+joblib
