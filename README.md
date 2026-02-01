@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Crypto Self-Learning Bot (Template)
 
 
@@ -59,6 +60,8 @@ crypto-self-learning-bot/
 - Trading cryptocurrencies involves substantial risk.
 
 =======
+=======
+>>>>>>> ef9206b (Resolve merge conflicts and fix bot syntax error)
 # Crypto Self-Learning Bot
 
 A full-stack crypto strategy lab with a Python backtest engine and a production-style Next.js dashboard.
@@ -94,7 +97,7 @@ This project gives you a complete loop:
   - `reports/model.joblib` (optional saved model).
 
 ### Frontend (Next.js)
-- Executive dashboard with branded layout and motion-rich visuals.
+- Executive dashboard with branded layout and visuals.
 - KPI cards, equity curve chart, market context chart, and recent run table.
 - Server-side data loading from backend artifacts.
 - API routes for integration:
@@ -186,23 +189,6 @@ Important options:
   --save_model
 ```
 
-## Report schema (latest run)
-
-`reports/sample-report.json` contains:
-- run metadata (`run_id`, `created_at_utc`, `symbol`, `timeframe`, `data_source`)
-- strategy params (`predict_horizon`, `fee_rate`, `initial_balance`)
-- performance (`final_equity`, `total_return_pct`, `buy_hold_return_pct`)
-- risk (`max_drawdown_pct`, `annualized_sharpe`, `calmar_ratio`)
-- trading stats (`closed_trades`, `wins`, `losses`, `win_rate_pct`, `exposure_pct`)
-- model quality (`model_validation_accuracy`)
-
-## Notes on methodology
-
-- This implementation is a compact research baseline, not a live trading stack.
-- It uses a simple long-only rule from classifier predictions.
-- No slippage model is included yet.
-- Risk controls (stops, max position, kill-switch) are not enforced at broker level.
-
 ## Safety and disclaimer
 
 This software is for research and education. It is not investment advice. Crypto trading is high risk. Do not deploy with real capital without robust validation, controls, and monitoring.
@@ -210,4 +196,7 @@ This software is for research and education. It is not investment advice. Crypto
 ## License
 
 See `LICENSE`.
+<<<<<<< HEAD
 (Full app build: backend, dashboard, and professional docs)
+=======
+>>>>>>> ef9206b (Resolve merge conflicts and fix bot syntax error)
