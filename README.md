@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Crypto Self-Learning Bot (Template)
 
 
