@@ -210,4 +210,4 @@ This software is for research and education. It is not investment advice. Crypto
 ## License
 
 See `LICENSE`.
->>>>>>> fb80fe8 (Full app build: backend, dashboard, and professional docs)
+(Full app build: backend, dashboard, and professional docs)
