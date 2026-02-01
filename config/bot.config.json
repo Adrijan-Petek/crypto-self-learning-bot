@@ -5,5 +5,16 @@
   "fee_rate": 0.001,
   "train_window": 500,
   "predict_horizon": 1,
+<<<<<<< HEAD
   "model_type": "random_forest"
 }
+=======
+  "model_type": "random_forest",
+  "data_mode": "sample",
+  "exchange_name": "binance",
+  "limit": 1000,
+  "report_dir": "reports",
+  "save_model": true,
+  "model_path": "reports/model.joblib"
+}
+>>>>>>> fb80fe8 (Full app build: backend, dashboard, and professional docs)

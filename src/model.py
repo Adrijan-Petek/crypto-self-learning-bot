@@ -14,6 +14,11 @@ class ModelWrapper:
         self.model = RandomForestClassifier(n_estimators=100, random_state=42)
 
     def train(self, X, y):
+<<<<<<< HEAD
+=======
+        if len(X) < 20:
+            raise ValueError("Not enough rows to train model. Provide more data.")
+>>>>>>> fb80fe8 (Full app build: backend, dashboard, and professional docs)
         X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, shuffle=False)
         self.model.fit(X_train, y_train)
         score = self.model.score(X_val, y_val)
@@ -21,7 +26,13 @@ class ModelWrapper:
         return score
 
     def predict(self, X):
+<<<<<<< HEAD
         return self.model.predict(X), self.model.predict_proba(X)
+=======
+        preds = self.model.predict(X)
+        probs = self.model.predict_proba(X) if hasattr(self.model, "predict_proba") else None
+        return preds, probs
+>>>>>>> fb80fe8 (Full app build: backend, dashboard, and professional docs)
 
     def save(self, path=MODEL_PATH):
         joblib.dump(self.model, path)
