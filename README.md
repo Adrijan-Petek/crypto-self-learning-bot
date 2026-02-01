@@ -1,6 +1,7 @@
 # Crypto Self-Learning Bot (Template)
 
 
+
 A starter template for a self-learning crypto trading bot.  
 Includes Python backend scripts for data ingestion, feature engineering, a simple ML model (Random Forest), a self-learning loop, backtesting utilities, sample reports, and a minimal web placeholder.
 
