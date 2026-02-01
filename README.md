@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Crypto Self-Learning Bot (Template)
 
 
@@ -199,4 +198,4 @@ See `LICENSE`.
 <<<<<<< HEAD
 (Full app build: backend, dashboard, and professional docs)
 =======
->>>>>>> ef9206b (Resolve merge conflicts and fix bot syntax error)
+(Resolve merge conflicts and fix bot syntax error)
