@@ -195,7 +195,7 @@ This software is for research and education. It is not investment advice. Crypto
 ## License
 
 See `LICENSE`.
-<<<<<<< HEAD
+
 (Full app build: backend, dashboard, and professional docs)
 =======
 (Resolve merge conflicts and fix bot syntax error)
