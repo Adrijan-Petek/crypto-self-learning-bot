@@ -4,7 +4,7 @@
 A starter template for a self-learning crypto trading bot.  
 Includes Python backend scripts for data ingestion, feature engineering, a simple ML model (Random Forest), a self-learning loop, backtesting utilities, sample reports, and a minimal web placeholder.
 
-**This is a template** — you'll need to add your own API keys and tweak strategies before using with real money.
+**This is a template**- you'll need to add your own API keys and tweak strategies before using with real money.
 
 ## Features
 - Fetch OHLCV via CCXT (script stub)
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 python -m src.bot --symbol BTC/USDT --timeframe 1h --mode backtest
 ```
 
-4. Run live (VERY RISKY — only after testing):
+4. Run live (VERY RISKY - only after testing):
 ```bash
 python -m src.bot --symbol BTC/USDT --timeframe 1h --mode paper
 ```
