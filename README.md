@@ -59,9 +59,6 @@ crypto-self-learning-bot/
 - This template is educational. Do not use with real funds until thoroughly tested.
 - Trading cryptocurrencies involves substantial risk.
 
-=======
-=======
->>>>>>> ef9206b (Resolve merge conflicts and fix bot syntax error)
 # Crypto Self-Learning Bot
 
 A full-stack crypto strategy lab with a Python backtest engine and a production-style Next.js dashboard.
